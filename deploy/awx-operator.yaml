@@ -389,6 +389,9 @@ spec:
                         type: string
                     type: object
                   type: array
+                receptor_conf:
+                  description: Receptor config file
+                  type: string
               type: object
             status:
               properties:

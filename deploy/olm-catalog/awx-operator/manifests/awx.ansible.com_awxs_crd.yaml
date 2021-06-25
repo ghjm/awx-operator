@@ -107,6 +107,9 @@ spec:
                       type: string
                   type: object
                 type: array
+              receptor_conf:
+                description: Receptor config file
+                type: string
               extra_volumes:
                 description: Specify extra volumes to add to the application pod
                 type: string
